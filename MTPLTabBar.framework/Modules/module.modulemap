@@ -1,0 +1,11 @@
+framework module MTPLTabBar {
+  umbrella header "MTPLTabBar.h"
+
+  export *
+  module * { export * }
+}
+
+module MTPLTabBar.Swift {
+    header "MTPLTabBar-Swift.h"
+    requires objc
+}
